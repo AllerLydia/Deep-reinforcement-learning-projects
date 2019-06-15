@@ -3,9 +3,6 @@
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1. The entire implementation was done in PyTorch. 
-
-![random agent](results/random_agent.gif) 
-
   
 
 ## Algorithm
@@ -34,7 +31,7 @@ This project uses 20 agents and DDPG for agent training -
 | Critic Learning rate                | 3e-4  |
 | Update interval                     | 20    |
 | Update times per interval           | 10    |
-| Number of episodes                  | 500   |
+| Number of episodes                  | 3000  |
 | Max number of timesteps per episode | 1000  |
 | Leak for LeakyReLU                  | 0.01  |
 
