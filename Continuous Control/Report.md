@@ -36,7 +36,7 @@ This project uses 20 agents and DDPG for agent training -
 | Leak for LeakyReLU                  | 0.01  |
 
 
-  #Results
+## Results
 
   Agent is able to achieve average of 30.0 scores, the agent solved the environment at 158 eposide. 
 
