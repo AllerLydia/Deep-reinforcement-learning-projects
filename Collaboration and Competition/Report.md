@@ -1,6 +1,7 @@
 # Project 3: Collaboration and Competition
 
-In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
+In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play. Here is the sudo code for implementing MADDPQ - 
+
 
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
@@ -21,7 +22,7 @@ This project uses 20 agents and DDPG for agent training -
 
 
 ### Hyperparameters
-
+The hyperparameters are picked based on project 2 as well as the article I found from Medium: https://medium.com/@amitpatel.gt/maddpg-91caa221d75e
 
 
 | Hyperparameter                      | Value |
