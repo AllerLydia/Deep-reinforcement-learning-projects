@@ -11,8 +11,7 @@ This yields a single score for each episode.
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 ## Algorithm
 
-The algorithm is an actor-cirtic method - combines TD estimates and Policy-based. TD estimates uses value-based method, Policy-based methods uses Monto-Carla estimates. Actor-critic methods uses actor as neural network to update the policy, and critic as another neural network, to help train the actor. Actor-critic uses critic to updated rewards for actor instead of update reward in the environment. 
-In vanilla policy gradients, the rewards accumulated over each episdoe is the average reward of all the hisotrical episode, Then perform gradient ascent. 
+The algorithm is Multi-Agent Deep Deterministic Policy Gradients (MADDPG) algorithm. I built it based on the algorithm implemented in Project 2 - same Actor and Critic, with shared information between agents. 
 
 
 This project uses 20 agents and DDPG for agent training - 
