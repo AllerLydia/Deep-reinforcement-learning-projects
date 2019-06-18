@@ -43,7 +43,7 @@ This project uses 20 agents and DDPG for agent training -
   Agent is able to achieve average of 0.5 scores, the agent solved the environment at 2448 eposide. 
 
 <p align="center">
-<img src="scores.png" width="500"/>
+<img src="score.png" width="500"/>
 </p>
 
 ## Ideas for improvement
